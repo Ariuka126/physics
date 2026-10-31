@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap");
+@tailwind base; @tailwind components; @tailwind utilities;
+body { @apply bg-slate-950 text-slate-200 antialiased; background-image: radial-gradient(ellipse at top, rgba(99,102,241,.14), transparent 55%); }
+.katex { color: #e0e7ff; }
+.card { @apply rounded-2xl border border-slate-800 bg-slate-900/70 backdrop-blur p-5; }
+input[type=range] { @apply w-full accent-indigo-500; }
